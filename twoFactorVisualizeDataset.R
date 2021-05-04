@@ -13,8 +13,6 @@ tail(data, n=7) #check bottom 7 rows
 str(data)      #check the structure of the data frame
 summary(data)      #check the summary of the data
 
-#Did you pick up that there is more than one year in the data?
-#From the challenge we know that there are two: 1960 and 2013
 
 #Filter the dataframes
 data1960 <- data[data$Year==1960,]
